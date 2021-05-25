@@ -1,0 +1,14 @@
+jasypt:
+   encryptor:
+      password: ${jasyptpwd}
+      algorithm: PBEWithMD5AndDES
+
+server:
+   port: 8080
+   servlet:
+      context-path: /cobros
+
+tiempoHealthCheck:
+   tiempo:   
+
+
